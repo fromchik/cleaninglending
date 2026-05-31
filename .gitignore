@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+*.log
+*.tsbuildinfo
+/package-lock.json
+
+server/data/*.sqlite
+server/data/*.sqlite-*
+server/uploads/*
+!server/uploads/.gitkeep
+
+client/dist/
+client/vite.config.js
+client/vite.config.d.ts
